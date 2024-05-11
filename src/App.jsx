@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Layout from "./components/Layout";
 import Contact from "./components/Contact";
 import About from "./components/About";
-import NotFound from "./NotFound";
+import NotFound from "./components/NotFound";
 
 export default function App() {
   return (
