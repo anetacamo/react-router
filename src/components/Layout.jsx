@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Menu from "./Menu/Menu";
+import Menu from "./Menu";
 import Breadcrumbs from "./Breadcrumbs";
 
 export default function Layout() {

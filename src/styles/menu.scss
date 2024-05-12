@@ -1,0 +1,13 @@
+.menu {
+  padding: $margin-m;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  &__item {
+    margin-left: $margin-m;
+    color: white;
+    &--logo {
+      margin-left: 0;
+    }
+  }
+}

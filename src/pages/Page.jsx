@@ -4,8 +4,6 @@ import postData from "../blogs.json";
 export default function Page() {
   const { id } = useParams();
   const post = postData.find((post) => post.id === parseInt(id));
-  console.log(id);
-  console.log(postData);
 
   return (
     <div>

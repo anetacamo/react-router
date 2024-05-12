@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 $margin-m: 1rem;
+$border-radius-m: 0.5rem;
 
 * {
   list-style: none;
@@ -12,19 +13,8 @@ $margin-m: 1rem;
   line-height: 1.4;
 }
 
-// @import "styles/menu.scss";
-nav {
-  padding: $margin-m;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  .menu-item {
-    margin-left: $margin-m;
-  }
-  a {
-    color: white;
-  }
-}
+@import "styles/menu.scss";
+@import "styles/blogs.scss";
 
 section {
   margin: $margin-m;

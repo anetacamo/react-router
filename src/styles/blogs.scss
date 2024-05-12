@@ -1,0 +1,28 @@
+.blogs {
+  display: flex;
+  margin: -$margin-m/2;
+  flex-wrap: wrap;
+  .blog {
+    max-width: 320px;
+    min-width: 160px;
+    margin: $margin-m/2;
+    padding: $margin-m;
+    flex: 1;
+    background-color: #efefef;
+    border-radius: $border-radius-m;
+    &__title {
+      max-width: 240px;
+    }
+    &__image-holder {
+      height: 200px;
+      background-color: white;
+      border-radius: $border-radius-m;
+      img {
+        object-fit: contain;
+        height: 140px;
+        padding: 30px 0;
+        width: 100%;
+      }
+    }
+  }
+}
