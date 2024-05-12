@@ -1,11 +1,11 @@
 .blogs {
   display: flex;
-  margin: -$margin-m/2;
+  margin: calc(-#{$margin-m}/ 2);
   flex-wrap: wrap;
   .blog {
     max-width: 320px;
     min-width: 160px;
-    margin: $margin-m/2;
+    margin: calc(#{$margin-m}/ 2);
     padding: $margin-m;
     flex: 1;
     background-color: #efefef;
