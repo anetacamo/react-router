@@ -7,7 +7,7 @@ export default function Breadcrumbs() {
   return (
     <section>
       <div>
-        <Link to="/">Home</Link>
+        <Link to="/">React Router</Link>
         {pathnames.map((name, index) => {
           const routeTo = `/${pathnames.slice(0, index + 1).join("/")}`;
           const isLast = index === pathnames.length - 1;
