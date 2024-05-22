@@ -14,14 +14,14 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/pages" element={<Pages />}>
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="pages" element={<Pages />}>
           <Route index element={<PageHome />} />
           <Route path=":id" element={<Page />} />
           <Route path="swimming" element={<Swimming />} />
         </Route>
-        <Route path="/*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );
